@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[contacto]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [nombre] VARCHAR(50) NULL, 
+    [compañia] VARCHAR(50) NULL, 
+    [titulo] VARCHAR(50) NULL, 
+    [numero] INT NULL, 
+    [correo] VARCHAR(50) NULL
+)
